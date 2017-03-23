@@ -35,6 +35,8 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -74,9 +76,18 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.Desktop;
+            this.panel1.Controls.Add(this.button5);
             this.panel1.Location = new System.Drawing.Point(280, 37);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(295, 365);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(42, 72);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(205, 48);
+            this.button5.TabIndex = 0;
+            this.button5.Text = "button5";
             // 
             // Form1
             // 
@@ -92,6 +103,7 @@
             this.Menu = this.mainMenu1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -103,6 +115,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button5;
     }
 }
 
