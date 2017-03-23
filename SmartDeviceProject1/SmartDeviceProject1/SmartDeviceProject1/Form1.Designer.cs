@@ -73,7 +73,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel1.BackColor = System.Drawing.SystemColors.Desktop;
             this.panel1.Location = new System.Drawing.Point(280, 37);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(295, 365);
