@@ -15,7 +15,7 @@
     <OSVersion>5.00</OSVersion>
     <DeployDirSuffix>SmartDeviceProject1</DeployDirSuffix>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <NativePlatformName>Windows Mobile 5.0 Pocket PC SDK</NativePlatformName>
+    <NativePlatformName>Windows CE</NativePlatformName>
     <FormFactorID>
     </FormFactorID>
   </PropertyGroup>
@@ -64,6 +64,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
